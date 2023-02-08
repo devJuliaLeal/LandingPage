@@ -38,11 +38,23 @@ const Navbar = () => {
   ];
   
   return (
-    <div>
-      
-
-
+  <nav>   
+    <div className='nav-logo-container'>
+      <img src={Logo} alt='Logo'> </img>
     </div>
+
+    <div className='nav-links-container'>
+      <a href=''>Home </a>
+      <a href=''>About</a>
+      <a href=''>Testimonials</a>
+      <a href=''>Contact</a>
+      <a href=''>
+        <BsCart2 className='nav-cart-icon'/>
+      </a>
+    </div>
+
+
+  </nav>
   )
 }
 
